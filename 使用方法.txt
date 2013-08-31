@@ -1,0 +1,13 @@
+goagent官方下载地址是： https://code.google.com/p/goagent/ ，大家可以到这里下载到最新的goagent版本。如果这个页面打不开，可使用上面提供的代理工具来访问，就能正常打开了。
+
+下载了 goagent 后，我们需要申请 Google Appengine 并创建 appid ，申请的详细方法见教程： https://code.google.com/p/goagent/wiki/InstallGuide
+
+然后我们修改 local\proxy.ini 中的[gae]下的 appid=你的appid (多appid请用|隔开)
+
+双击 server\uploader.bat ，上传成功后即可使用了(地址127.0.0.1:8087)
+
+如果你使用chrome浏览器，请安装SwitchySharp插件，然后导入这个设置： https://goagent.googlecode.com/files/SwitchyOptions.bak
+
+firefox浏览器请安装FoxyProxy，Firefox需要导入证书，更多说明可见其官方下载地址，里面有非常详细的说明。
+
+goagent对用户是有流量限制的，目前为每人每天1GB，如果流量不够大家可以多申请几个号码，或者使用上面提供的代理工具，那几款代理工具是没有流量限制的。
